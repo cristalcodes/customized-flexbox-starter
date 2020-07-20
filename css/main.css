@@ -110,6 +110,9 @@ body {
 
 .wrapper {
   /* set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   height: 100%;
   width: 100%;
@@ -123,11 +126,14 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 1.25em;
+  justify-content: center;
+  align-items: center;
   line-height: 1.5em;
   border-radius: 10px;
   padding: 0px 30px;
   width: 300px;
   height: 300px;
+  text-align: center;
 }
 
 #content p span {
